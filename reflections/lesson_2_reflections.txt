@@ -6,3 +6,7 @@ track until you initialize a directory.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is a temporary place where you put your files that will be committed from the working directory to the repository at the next commit.  It allows you to only put certain files in the commit and to see which files are in there before committing.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By using git diff --staged, I can compare the staging area with the last commit to make sure that only one logical change is included.
