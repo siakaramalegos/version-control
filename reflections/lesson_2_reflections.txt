@@ -14,3 +14,7 @@ By using git diff --staged, I can compare the staging area with the last commit 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches would help when I'm trying to experiment with an element that I may not want to keep.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help show when commits are unreachable and which commits are reachable by which branches.
