@@ -18,3 +18,7 @@ Branches would help when I'm trying to experiment with an element that I may not
 How do the diagrams help you visualize the branch structure?
 
 The diagrams help show when commits are unreachable and which commits are reachable by which branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It combines changes from both branches into one repo.  We show it that way so that the commit history is more clear.
