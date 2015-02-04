@@ -5,3 +5,30 @@ When you are working on a system that is not your own or that you are afraid wil
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 You may have made changes on your local version that would be erased if Git automatically pulled from GitHub.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork is a clone on Github that is managed by Github and still gives credit to the original author.
+Clones are copies of repos on your local machine.  Branches are copies of a repo with a parent of generally a
+master branch which are contained in the same repo.  Use a fork to copy someone else's code from Github.  Use a
+clone to do the same without giving them credit or to copy code back to your computer from Github.  Use a branch
+to work on the same repo but maybe experimenting with a feature or to work on a specific feature separate from
+another collaborator.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can work on a repo while others work on the same repo on different machines.  Then, you can merge the
+changes and work through any sync issues.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would probably use Google Drive/Docs.  It would be more difficult since tracking "commits" would not really
+be possible since everything is constantly saved.  This results in saving points that are no individual
+logical changes.  It's also more difficult to see the differences that were made between versions or branches of
+two different collaborators - branches aren't really possible.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+If I'm working on a new feature that I want to experiment with or if I am collaborating with someone else and
+working on part of the repo, I would want to branch.  That way, it's easier to see differences and for the
+"real owner" to see the changes before agreeing to merge them back in.
